@@ -1,8 +1,8 @@
 {
-	"name": "erb",
-	"description": "Syntax Highlighting for Ruby ERB files",
-	"version": "0.0.1",
-	"publisher": "CraigMaslowski",
+	"name": "ejs",
+	"description": "Syntax Highlighting for JavaScript EJS files",
+	"version": "1.0.0",
+	"publisher": "ezekg",
 	"engines": {
 		"vscode": "^0.10.1"
 	},
@@ -11,19 +11,19 @@
 	],
 	"contributes": {
 		"languages": [{
-			"id": "erb",
-			"aliases": ["Ruby ERB", "erb"],
-			"extensions": [".erb",".rhtml",".html.erb"],
-			"configuration": "./erb.configuration.json"
+			"id": "ejs",
+			"aliases": ["JavaScript EJS", "ejs"],
+			"extensions": [".ejs",".rhtml",".html.ejs"],
+			"configuration": "./ejs.configuration.json"
 		}],
 		"grammars": [{
-			"language": "erb",
-			"scopeName": "text.html.erb",
-			"path": "./syntaxes/erb.tmLanguage"
+			"language": "ejs",
+			"scopeName": "text.html.ejs",
+			"path": "./syntaxes/ejs.tmLanguage"
 		}]
 	},
 	"repository": {
         "type": "git",
-        "url": "https://github.com/craigmaslowski/vscode-erb.git"
+        "url": "https://github.com/craigmaslowski/vscode-ejs.git"
     }
 }
